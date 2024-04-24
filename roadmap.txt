@@ -1,0 +1,5 @@
+24/04/2024 Started deploying css (minor things)
+
+To do:  -Style hyperlinks to each manga
+        -Style each manga page.
+        -Add header

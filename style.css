@@ -1,13 +1,15 @@
 * {-webkit-font-smoothing: antialiased;}
 
-.header#main{
-    display: block;
-    font-size: 40px;
-}
 
-div {
+
+#mainblock {
     background-color: rgb(221, 191, 151);
     text-align: center;
+}
+
+.header#main{
+    background-color: beige;
+    font-size: 40px;
 }
 
 .header {
@@ -18,9 +20,10 @@ div {
 
 
 
-h3 {
+.subheader {
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-size: 20px;
 }
 
 .mangaList {

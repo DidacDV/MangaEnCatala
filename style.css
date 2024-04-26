@@ -6,22 +6,29 @@ body {
 	padding: 0;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: #003135;
-	background: #AFDDE5;
+	background: white;
+}
+
+h1 {
+    margin: 0px;
 }
 
 .main-header {
-    background-color: rgb(210, 210, 234);
+    background-color: black;
     color: white;
 }
     .main-header #mainName  {
         font-size: 20px;
+        width: 300px;
         font-weight: 300px;
         display: inline-block;
+        text-align: center;
+        color: wheat;
     }
     .main-header p {
         text-align: center;
         width: min-content;
-        width: 200px;
+        width: 300px;
         border: 1px solid black;
     }
     
@@ -29,11 +36,11 @@ body {
 .icons {
     position: absolute;
     top: 0px;
-    background-color: rgb(210, 210, 234); 
-    width: 100px;
-    left: 88%;
+    background-color: white; 
+    width: 120px;
+    left: 86.5%;
     border: 1px solid black;
-    color:darkolivegreen;
+    color:white;
 }
     .icons img{
         float: right;
@@ -41,20 +48,20 @@ body {
         text-align: center;
     }
 
-
-#mainblock {
-    text-align: center;
-}
+    .icons a {
+        color: black;
+    }
 
 
 
 .title {
+    text-align: center;
     font-weight: bold;
     font-size: 25px;
 }
     .title#main{
-        background-color: rgb(210, 210, 234);
-        color: #2F3C7E;
+        background-color: black;
+        color: wheat;
         font-size: 40px;
     }
 

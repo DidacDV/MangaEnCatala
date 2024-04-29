@@ -88,8 +88,12 @@ a {
     .mangaList .mangaInList {
         color: #003135;
         margin: 30px;
-        display: inline-block;
+        text-align: center;
+
     }
+        .mangaList .mangaInList a {
+            color: #003135;
+        }
 
 .footer {
     display: flex;
